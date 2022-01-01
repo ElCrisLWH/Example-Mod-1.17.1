@@ -9,9 +9,9 @@ This is an empty example mod to begin your own.
 ### Environment
 
 1. Download [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/).
-2. Download an IDE: [Visual Studio Code](https://code.visualstudio.com/) (Recommended: [Eclipse](https://www.eclipse.org/downloads/) and [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)).
+2. Download an IDE: [Visual Studio Code](https://code.visualstudio.com/) (or [Eclipse](https://www.eclipse.org/downloads/) or [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)).
 3. Open the project from your IDE and download Java and Gradle extensions.
-4. Run `init` Gradle Task to generate other Gradle Taks.
+4. Run `init`.
 
 ### Mod
 
@@ -27,7 +27,7 @@ This is an empty example mod to begin your own.
         ```
 
     2. Replace `'examplemod'` by your `'modid'` everywhere in the file.
-    3. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`) Gradle Task to load changes.
+    3. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`).
 
 3. Modify `ExampleMod.java`:
 
@@ -42,20 +42,21 @@ This is an empty example mod to begin your own.
 4. Modify `mods.toml`:
 
     1. `modId="modid"`.
-    2. `displayName="Mod Name"`.
-    3. Replace `credits`, `authors` and `description`.
-    4. Replace your `"modid"` on dependencies.
+    2. `version="0.0.0"`.
+    3. `displayName="Mod Name"`.
+    4. Replace `credits`, `authors` and `description`.
+    5. Replace your `"modid"` on dependencies.
 
 ## Run Project
 
 1. Update your mod version if needed in `build.gradle` and `mods.toml`.
-2. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`) Gradle Task to load changes.
-3. Run `runClient` Gradle Task.
+2. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`).
+3. Run `runClient`.
 
 Minecraft is now running with your Mod.
 
-## Comments
+## Additional Notes
 
--   `init` should be always run when opening your IDE.
--   `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`) should be always run after modifying `build.gradle`
+-   `init` Gradle Task should be always run when opening your IDE to generate other Gradle Tasks.
+-   `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`) Gradle Task should be always run after modifying `build.gradle` to load changes.
 -   Those tasks might be run by default by your IDE based on your configurations and extensions.
