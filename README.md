@@ -64,7 +64,7 @@ To declare a new release of your mod:
 
 1. Run `runClient`.
 
-Minecraft is now running with your Mod.
+Minecraft is now running with your mod.
 
 ## Additional Notes
 
