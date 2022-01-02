@@ -2,11 +2,11 @@ This README will present the repository, how to set it up and how to run it.
 
 # Example Mod
 
-This is an empty example mod to begin your own mod for Minecraft Java Edition using Minecraft Forge.
+This is an empty example mod to begin your own mod for [Minecraft Java Edition](https://minecraft.fandom.com/wiki/Java_Edition) using [Minecraft Forge](https://mcforge.readthedocs.io/).
 
 Java basic knowledge might help understanding and developing.
 
-This project uses Gradle as its build automation tool, but no prior knowledge is required.
+This project uses [Gradle](https://gradle.org/) as its build automation tool, but no prior knowledge is required.
 
 ## Setup
 
