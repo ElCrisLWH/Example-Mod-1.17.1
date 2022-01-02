@@ -1,4 +1,4 @@
-This README will present the repository, how to set it up and how to run it.
+This README will present the repository and how to use it.
 
 # Example Mod
 
@@ -9,6 +9,8 @@ Java basic knowledge might help understanding and developing.
 This project uses [Gradle](https://gradle.org/) as its build automation tool, but no prior knowledge is required.
 
 ## Setup
+
+Before modding, make sure to setup your environment and personalize your proyect.
 
 ### Environment
 
@@ -51,11 +53,16 @@ This project uses [Gradle](https://gradle.org/) as its build automation tool, bu
     4. Replace `credits`, `authors` and `description`.
     5. Replace your `"modid"` on dependencies.
 
+## Versions
+
+To declare a new release of your mod:
+
+1. Update your mod version in `build.gradle` and `mods.toml`.
+2. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`).
+
 ## Run Project
 
-1. Update your mod version if needed in `build.gradle` and `mods.toml`.
-2. Run `genVSCodeRuns` (or `genEclipseRuns` or `genIntellijRuns`).
-3. Run `runClient`.
+1. Run `runClient`.
 
 Minecraft is now running with your Mod.
 
